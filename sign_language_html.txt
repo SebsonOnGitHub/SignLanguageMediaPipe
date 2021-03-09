@@ -1,0 +1,18 @@
+<div class="container">
+  <video class="input_video"></video>
+  <canvas class="output_canvas" width="1280px" height="720px"></canvas>
+  <div class="loading">
+    <div class="spinner"></div>
+    <div class="message">
+      Loading
+    </div>
+  </div>
+</div>
+<div class="control-panel">
+  <h1 id="welcome_text">Sign Language Detection</h1>
+  <h1 id="resetting"></h1>
+</div>
+<div class="text-content">
+  <h1 id="sign_word"></h1>
+  <h1 id="sign_letter"></h1>
+</div>
